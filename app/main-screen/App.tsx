@@ -1,12 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import { Text, TextInput, View, Image, TouchableOpacity } from "react-native";
-import styles from "./design";
+import styles from "./main-design";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../assets/sushi-03-nigiri-tamago-svgrepo-com.png")}
+        source={require("../../assets/sushi-unstretched.png")}
         style={styles.tamagoImage}
       />
       <Text style={styles.text}>How many players?</Text>
