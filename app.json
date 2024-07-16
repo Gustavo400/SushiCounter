@@ -7,8 +7,8 @@
     "icon": "./assets/sushi-circle.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/sushi-lonely.png",
-      "resizeMode": "contain",
+      "image": "./assets/sushi-unstretched.png",
+      "resizeMode": "center",
       "backgroundColor": "#F9D26E"
     },
     "ios": {
