@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import COLORS from "../style-variables";
+import Colors from "../design";
 
 const styles = StyleSheet.create({
   container: {
@@ -19,21 +19,21 @@ const styles = StyleSheet.create({
     height: 50,
     width: 50,
     borderWidth: 2,
-    borderColor: COLORS.coolGray,
+    borderColor: Colors.coolGray,
     borderRadius: 5,
     margin: 10,
     justifyContent: "center",
   },
   playerCountText: {
     textAlign: "center",
-    color: COLORS.peachYellow,
+    color: Colors.peachYellow,
     fontWeight: "700",
     fontSize: 24,
   },
   text: {
     fontSize: 32,
     fontWeight: "bold",
-    color: COLORS.bittersweetOrange,
+    color: Colors.bittersweetOrange,
   },
 });
 

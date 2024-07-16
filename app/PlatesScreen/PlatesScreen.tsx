@@ -1,13 +1,15 @@
 import { Image, Text, View } from "react-native";
-import styles from "./plates-design";
-import { PlatesScreenProps } from "../nav-types";
+import styles from "./PlatesScreen.styles";
+import { PlatesScreenProps } from "../../navigation/nav-types";
 
 export default function PlatesScreen({ route, navigation }: PlatesScreenProps) {
   const playerCount = route.params.numberOfPlayers;
 
   return (
     <View style={styles.container}>
-      <Text>This is empty for now, {playerCount} players</Text>
+      <Text style={styles.displayText}>
+        This is empty for now, {playerCount} players
+      </Text>
     </View>
   );
 }

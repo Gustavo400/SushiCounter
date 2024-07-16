@@ -1,4 +1,4 @@
-const COLORS = {
+const Colors = {
   sageGreen: "#C9CBA3",
   peachYellow: "#FFE1AB",
   bittersweetOrange: "#E26D5C",
@@ -9,4 +9,4 @@ const COLORS = {
   lilacPurple: "#BEA2C2",
 };
 
-export default COLORS;
+export default Colors;

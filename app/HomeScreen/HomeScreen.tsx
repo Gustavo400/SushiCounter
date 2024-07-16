@@ -1,9 +1,6 @@
+import { View, TouchableOpacity, Image, Text } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { Text, View, Image, TouchableOpacity } from "react-native";
-import styles from "./main-design";
-import { NavigationContainer, useNavigation } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import PlatesScreen from "../game-screen/plates";
+import styles from "./HomeScreen.styles";
 
 function HomeScreen({ navigation }) {
   return (
@@ -70,16 +67,4 @@ function HomeScreen({ navigation }) {
   );
 }
 
-const Stack = createNativeStackNavigator();
-
-export default function App() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Plates" component={PlatesScreen} />
-      </Stack.Navigator>
-      <StatusBar style="auto" />
-    </NavigationContainer>
-  );
-}
+export default HomeScreen;

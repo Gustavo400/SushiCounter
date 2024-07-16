@@ -1,12 +1,18 @@
 import { StyleSheet } from "react-native";
-import COLORS from "../style-variables";
+import Colors from "../design";
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: COLORS.bittersweetOrange,
+    backgroundColor: Colors.bittersweetOrange,
     alignItems: "center",
     justifyContent: "center",
+  },
+  displayText: {
+    textAlign: "center",
+    color: "black",
+    fontWeight: "700",
+    fontSize: 24,
   },
 });
 
