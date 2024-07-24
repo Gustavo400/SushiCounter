@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
   textBox: {
     height: "100%",
     justifyContent: "center",
+    alignItems: "center",
   },
   displayText: {
     textAlign: "center",
@@ -27,6 +28,11 @@ const styles = StyleSheet.create({
     height: "100%",
     alignItems: "center",
     justifyContent: "center",
+  },
+  plate: {
+    height: 100,
+    width: 100,
+    margin: 10,
   },
 });
 

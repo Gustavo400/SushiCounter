@@ -2,6 +2,7 @@ import { FlatList, Text, TouchableOpacity, View } from "react-native";
 import styles from "./PlatesScreen.styles";
 import { PlatesScreenProps } from "../../navigation/nav-types";
 import Colors from "../design";
+import SushiPlate from "../../assets/sushi-plate";
 
 export default function PlatesScreen({ route, navigation }: PlatesScreenProps) {
   const playerCount = route.params.numberOfPlayers;
@@ -27,6 +28,9 @@ export default function PlatesScreen({ route, navigation }: PlatesScreenProps) {
           <TouchableOpacity style={styles.plateTouchable}>
             <View style={styles.textBox}>
               <Text style={styles.displayText}>{item.key}</Text>
+              <View style={styles.plate}>
+                <SushiPlate />
+              </View>
             </View>
           </TouchableOpacity>
         </View>
