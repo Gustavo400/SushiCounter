@@ -1,6 +1,6 @@
 import * as React from "react";
 import Svg, { SvgProps, Circle, Path } from "react-native-svg";
-const SushiPlate = (props: SvgProps) => (
+const Plate = (props: SvgProps) => (
   <Svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -19,4 +19,4 @@ const SushiPlate = (props: SvgProps) => (
     />
   </Svg>
 );
-export default SushiPlate;
+export default Plate;

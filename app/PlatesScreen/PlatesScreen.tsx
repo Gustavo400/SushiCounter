@@ -2,7 +2,7 @@ import { FlatList, Text, TouchableOpacity, View } from "react-native";
 import styles from "./PlatesScreen.styles";
 import { PlatesScreenProps } from "../../navigation/nav-types";
 import Colors from "../design";
-import SushiPlate from "../../assets/sushi-plate";
+import SushiPlate from "./SushiPlate";
 import { useState } from "react";
 
 type PlayerData = {
@@ -52,9 +52,7 @@ export default function PlatesScreen({ route }: PlatesScreenProps) {
             <View style={styles.textBox}>
               <Text style={styles.displayText}>Player {item.id}</Text>
               <Text style={styles.displayText}>{item.sushiCount}</Text>
-              <View style={styles.plate}>
-                <SushiPlate />
-              </View>
+              <SushiPlate />
             </View>
           </TouchableOpacity>
         </View>
