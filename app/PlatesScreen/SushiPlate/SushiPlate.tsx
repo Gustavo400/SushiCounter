@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import styles from "./SushiPlate.styles";
-import Plate from "../../assets/plate";
+import Plate from "../../../assets/plate";
 
 export default function SushiPlate() {
   return (

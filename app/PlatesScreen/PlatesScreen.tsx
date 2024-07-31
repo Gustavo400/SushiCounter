@@ -2,7 +2,7 @@ import { FlatList, Text, TouchableOpacity, View } from "react-native";
 import styles from "./PlatesScreen.styles";
 import { PlatesScreenProps } from "../../navigation/nav-types";
 import Colors from "../design";
-import SushiPlate from "./SushiPlate";
+import SushiPlate from "./SushiPlate/SushiPlate";
 import { useState } from "react";
 
 type PlayerData = {
